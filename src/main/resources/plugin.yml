@@ -1,0 +1,13 @@
+name: MaxHorse
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  maxhorse:
+    description: Gives you a horse with maximum breedable attributes.
+    usage: /maxhorse [speed|jump|health]
+    aliases: [mh]
+permissions:
+  maxhorse.use:
+    description: Allows using the /maxhorse command.
+    default: op
